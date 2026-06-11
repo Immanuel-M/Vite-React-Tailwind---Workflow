@@ -1,12 +1,12 @@
 import './App.css'
-
+import myPhoto from './assets/Clay-Profile-Photo.png'
 function App() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-slate-950 p-4">
       
       {/*Avatar */}
       <img
-        src="https://via.placeholder.com/150"
+        src={myPhoto}
         alt="Immanuel Morris"
         className="rounded-full w-36 h-36 mb-6"
     />  
@@ -21,8 +21,9 @@ function App() {
 
       {/*Paragraph 2 - Different background with LinkedIn link */}
       <div className = "bg-gray-100 text-gray-800 p-6 rounded-lg max-w-md">
-        <p>Connect with me on <a href="https://www.linkedin.com/in/immanuel-morris-35a6611a" target="_blank" 
-        className="text-blue-600 hover:underline">LinkedIn</a>.</p>
+        <p>I'm passionate about bridging technology and education. Its an area I'm deeply commited to.
+          Feel free to connect with me on <a href="https://www.linkedin.com/in/immanuel-morris-35a6611a" target="_blank" 
+        className="text-blue-600 hover:underline">LinkedIn</a> to learn more about my work.</p>
       </div>
     </div>
   )
