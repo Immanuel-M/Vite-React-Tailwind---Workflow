@@ -8,7 +8,7 @@ Single page app built as part of CCPathways onboarding (MRS-5).
 - LinkedIn link on dark navy background
 
 ## Screenshot
-[add screenshot here]
+![Profile Page](Vite_Profile_Result.jpg)
 
 ## Built With
 - Vite
